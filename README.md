@@ -25,7 +25,7 @@ Use these pre-configured accounts to test role-based dashboard screens and permi
 
 ### 🧑 Normal User
 *   **Email**: `user@gmail.com`
-*   **Password**: `User@1502`
+*   **Password**: `User@123`
 
 ### 🏪 Store Owner
 *   **Email**: `owner@gmail.com`
