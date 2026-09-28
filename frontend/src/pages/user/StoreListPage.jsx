@@ -141,7 +141,7 @@ const StoreListPage = () => {
       render: (row) => (
         <button
           onClick={() => openRatingModal(row)}
-          className={`btn text-xs font-bold px-4 py-2 ${row.userRating ? 'btn-secondary' : 'btn-primary'}`}
+          className={`btn text-xs font-bold px-4 py-2 ${row.userRating ? 'btn-secondary' : 'btn-green'}`}
         >
           {row.userRating ? 'EDIT RATING' : 'RATE STORE'}
         </button>

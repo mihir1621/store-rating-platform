@@ -221,6 +221,23 @@
     transform: translateY(-1px);
   }
 
+  .btn-green {
+    @apply bg-green-500 text-white;
+    box-shadow: 0 2px 8px rgba(34, 197, 94, 0.25);
+    transition: all 0.25s cubic-bezier(0.22, 1, 0.36, 1);
+  }
+
+  .btn-green:hover {
+    @apply bg-green-600;
+    box-shadow: 0 4px 16px rgba(34, 197, 94, 0.4);
+    transform: translateY(-1px);
+  }
+
+  .btn-green:active:not(:disabled) {
+    transform: translateY(0) scale(0.96);
+    box-shadow: 0 1px 4px rgba(34, 197, 94, 0.2);
+  }
+
   .card {
     @apply bg-paper-2 border border-border rounded-xl p-6;
     animation: slide-up 0.5s cubic-bezier(0.22, 1, 0.36, 1) forwards;
