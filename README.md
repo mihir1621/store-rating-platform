@@ -11,7 +11,6 @@ This project implements client and server-side data validations, JWT token authe
 ## 🌐 Live Demo
 
 *   🚀 **Frontend**: [https://store-rating-platform-wpv6.vercel.app](https://store-rating-platform-wpv6.vercel.app)
-*   ⚙️ **Backend API Server**: [https://store-rating-platform-hemw.vercel.app/](https://store-rating-platform-hemw.vercel.app/)
 
 ---
 
